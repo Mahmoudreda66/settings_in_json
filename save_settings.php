@@ -1,8 +1,9 @@
 <?php
 
+require 'helpers.php';
+
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
-	define('SETTINGS_FILE_NAME', 'settings.json'); // file name constant
 	$settings = [];
 
 	// only allowed settings to edit

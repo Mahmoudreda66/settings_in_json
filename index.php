@@ -1,5 +1,7 @@
 <?php
 
+require 'helpers.php';
+
 // get settings contents from settings.json
 // convert json to json text to array to easy access it
 $settings = json_decode(file_get_contents('settings.json'), true);
